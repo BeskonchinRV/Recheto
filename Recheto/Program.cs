@@ -6,7 +6,7 @@ class Resheto
     {
         int n, j = 0;
 
-        Console.WriteLine("Введите число n :");//ввод конечного числа подсчета
+        Console.WriteLine("Введите число n :");
         n = Int32.Parse(Console.ReadLine());
         int[] a = new int[n];
         for (int i = 0; i < n; i++)
@@ -31,6 +31,6 @@ class Resheto
             if (x != 0)
                 Console.Write(x + " ");
         }
-        Console.ReadKey();//чтоб не закрывалась консоль после исполнения кода
+        Console.ReadKey();
     }
 }
